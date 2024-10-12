@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Il sito web mira a mostrare le principali caratteristiche del font variabile Caractera. Prova il font direttamente dal sito o scaricalo e inizia ad usarlo nei tuoi progetti">
+    
+	
+	<!-- 
+	se aggiungi le open graph tags 
+	quando condividerai la pagina sui social 
+	avrai la descrizone giusta
+	https://ahrefs.com/blog/open-graph-meta-tags/#which-open-graph-tags-to-use
+	-->
+
+    <title>Caractera | Filippo Di-Carlo</title>
+
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css">
+</head>
+    
+<body>
+   
+<!-- 
+metti questa parte dentro una tag <main> ... </main> 
+in modo che sia facilmente indicizzabile 
+-->
+
+<div>
+
+   <header class="tag-area">
+	<span class="tag">DICARLO</span>
+       	<span class="tag">TYPERESEARCH</span>
+	<span class="tag">CARACTERA</span>
+   </header>
+
+    <div class="container">
+        <h1 id="text" contenteditable="true">CARACTERA</h1>
+        
+        <!-- Weight font -->
+        <div class="slider-container">
+            <label for="weightRange">weight</label>
+            <input type="range" id="weightRange" min="200" max="700" value="400" step="1">
+        </div>
+
+        <!-- X-height -->
+        <div class="slider-container">
+            <label for="xheightRange">x-height</label>
+            <input type="range" id="xheightRange" min="1" max="100" value="1" step="1">
+        </div>
+        
+        <div class="download-container">
+          <a href="Caractera_DL.zip" download="Caractera_DL.zip" class="download-button">download typeface</a>
+        </div> 
+    </div>
+	</div>
+    
+    <div class="divider"></div>
+    
+    <div class="descrizione-container">
+        <p>Caractera is an old-style serif typeface inspired by the great classics such as Garamond and Minion Pro. Carefully designed to adapt to a variety of typographic contexts, this font is particularly suitable for <b>long texts</b> due to its refined style and flexibility.</p>
+        
+		<p>The name “Caractera” phonically recalls Latin, a language deeply linked to the origins of typography. It is a tribute to the time when the first typefaces were developed for printing, inspired by the elegance and precision of humanistic script. This historical connection underscores the intent to blend tradition and innovation in a font that maintains the classic rigor of old-style serifs while offering the flexibility of variable technology.</p>
+    </div>
+    
+    <div class="character-container">
+		<p class="character-set">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 1 2 3 4 5 6 7 8 9 0 a b c d e f g h i j k l m n o p q r s t u v w x y z á à â å ä ã æ ç é è ê ë í ì î ï ñ ó ò  ô ö õ ø œ ú ù û ü ý ŷ ÿ . : ! - _ [ ] ( ) { }  / “&” , ' ? Á À Â Å Ä Ã Æ Ç É È Ê Ë Í Ì Î Ï Ñ Ó Ò Ô Ö Õ Ø Œ Ú Ù Û Ü Ý Ŷ Ÿ
+		</p>
+    </div>
+    
+    
+    <div class="variazione-container">
+        <p class="variazioneA">
+            <span class="variazioneA-1">A</span>
+            <span class="variazioneA-2">A</span>
+            <span class="variazioneA-3">A</span>
+            <span class="variazioneA-4">A</span>
+            <span class="variazioneA-5">A</span>
+            <span class="variazioneA-6">A</span>
+        </p>
+    </div>
+    
+    
+    <div class="gif-container">
+        <img src="gif_typo.gif" alt="GIF in loop della variabilità del font Caractera">
+    </div>
+    
+	
+	<div class="istanze-container">
+    <img src="Istanze_aa.png" alt="Istanze del font Egyptian Didone">
+    </div>
+    
+    <div class="strumento">
+		<p>The typeface's main feature is its variable structure on two axes: the first adjusts the weight, allowing a smooth transition from light to bold, while the second axis modifies the x-height of lowercase letters, optimizing readability at different sizes and contexts. This makes it perfect for both print design and the web, where maximum clarity and versatility is required.</p>
+        
+        <p>The font is now at version 1.0, which means it is under constant development. If you think it needs changes, please contact me. Download Caractera and discover a new way to experiment with classic typography.</p>
+    </div>
+    
+    
+    <div class="footer-container">
+        <img src="logo.png" alt="logo_dicarlo">
+        <p class="footer">Copyright © 2024 Filippo Di-Carlo | filippodicarlo03@gmail.com. 
+        <br>All rights reserved.<br>
+	
+        <a href="mailto:filippodicarlo03@gmail.com">filippodicarlo03@gmail.com</a> <br>	
+		
+            <a href="https://www.instagram.com/dddicarlooo/" class="icon">@dddicarlooo</a>
+        </p>
+    </div>
+
+    <script>
+        const textElement = document.getElementById('text');
+        const weightRange = document.getElementById('weightRange');
+        const xheightRange = document.getElementById('xheightRange');
+        const userText = document.getElementById('userText');
+
+        // Aggiorna le impostazioni del font variabile
+        function updateFont() {
+            textElement.style.fontVariationSettings = `"wght" ${weightRange.value}, "XHGT" ${xheightRange.value}`;
+        }
+
+        // Aggiorna il testo
+        function updateText() {
+            textElement.textContent = userText.value;
+        }
+        
+        // Font quando la pagina viene ricaricata
+        function initializeFontSettings() {
+            textElement.style.fontVariationSettings = `"wght" 400, "XHGT" 1`;
+        }
+
+        // Input dei cursori
+        weightRange.addEventListener('input', updateFont);
+        xheightRange.addEventListener('input', updateFont);
+        
+        // Input del testo
+        userText.addEventListener('input', updateText);
+        window.onload = initializeFontSettings;
+    </script>
+</body>
+</html>
