@@ -90,7 +90,7 @@ p {
 }
 
 .character-set{
-   font-variation-settings: "wght" 450, "XHGT" 1;
+   font-variation-settings: "wght" 400, "XHGT" 1;
    width: 70vw;
    text-align: justify;
    font-family: 'CaracteraVF', serif;
