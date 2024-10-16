@@ -185,6 +185,7 @@ span {
 }
 
 .variazioneA span {
+    font-family: 'CaracteraVF', serif;
     color: #f2eee2;
 	margin-left: -20vh;
 	font-size: 50vh;
