@@ -15,7 +15,7 @@ rosso: b32821
 
 body {
     background-color: #29261c;
-    font-family: 'Helvetica', serif;
+    font-family: 'Helvetica', sans-serif;
     font-size: 2.1vw;
     font-variation-settings: "wght" 400, "XHGT" 1;
     margin: 0 auto;
@@ -245,6 +245,28 @@ span {
    padding: 5vw 15vw;
    margin:0;
 }
+
+
+.pricing{
+   text-align: justify;
+   font-family: 'Helvetica', sans-serif;
+   font-weight: 100;    
+   font-size: 2vw;
+   color: #f2eee2;
+   padding: 2vw 15vw;
+   margin:0;       
+}
+
+h5 {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 100;
+}
+
+.footer-divider {
+    height: 2px;
+    background-color: #f2eee2;
+}
+
 
 .istanze-container {  
    text-align: center;   
