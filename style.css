@@ -51,7 +51,7 @@ h1 {
 
 
 p {
-   font-size: 1.5vw;
+   font-size: 1.6vw;
    font-variation-settings: "wght" 400, "XHGT" 1;
    font-family: serif;
 }
@@ -118,11 +118,6 @@ b{
     width: 90vw;
     color: #29261c;
     text-align: center;
-}
-
-
-span {    
-    color: #cca4a3;
 }
 
 
@@ -223,10 +218,8 @@ span {
 }
 
 
-
 .gif-container {
     text-align: center;   
-    margin-bottom: 0px;
     z-index: 10;        
 }
 
@@ -236,14 +229,30 @@ span {
     height: auto;    
 }
 
-.strumento{    
+.istanze-container {  
+   text-align: center;
+   margin-top: 8vw;
+   margin-bottom: 0px;
+   z-index: 10;
+   padding: 5vw 15vw;
+}
+
+.istanze-container img {
+   width: 90vw;
+   max-width: 100%; 
+   height: auto;
+}
+
+
+.feature{    
    font-variation-settings: "wght" 450, "XHGTXHGT" 1;
    text-align: justify;
    font-family: 'Egyptian Didone', serif;
    font-size: 2vw;
    color: #f2eee2;
    padding: 5vw 15vw;
-   margin:0;
+    
+   margin:0px;
 }
 
 
