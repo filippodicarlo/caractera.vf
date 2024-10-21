@@ -251,7 +251,6 @@ b{
    font-size: 2vw;
    color: #f2eee2;
    padding: 5vw 15vw;
-    
    margin:0px;
 }
 
@@ -264,6 +263,16 @@ b{
    color: #f2eee2;
    padding: 2vw 15vw;
    margin:0;       
+}
+
+.invio-font{    
+   font-variation-settings: "wght" 450, "XHGTXHGT" 1;
+   text-align: justify;
+   font-family: 'Egyptian Didone', serif;
+   font-size: 2vw;
+   color: #f2eee2;
+   padding: 5vw 15vw;
+   margin:0px;
 }
 
 h5 {
