@@ -10,14 +10,14 @@ rosso: b32821
     font-family: 'CaracteraVF';
     src: url('CaracteraVF.woff2') format('woff2');
     font-weight: 200 700;
-    font-variation-settings: "wght" 400, "XHGT" 100;
+    font-variation-settings: "wght" 350, "XHGT" 100;
 }
 
 body {
     background-color: #29261c;
     font-family: 'Helvetica', sans-serif;
     font-size: 2.1vw;
-    font-variation-settings: "wght" 400, "XHGT" 1;
+    font-variation-settings: "wght" 350, "XHGT" 1;
     margin: 0 auto;
 }
 
@@ -34,7 +34,7 @@ body {
 }
 
 h1 {
-    font-variation-settings: "wght" 400, "XHGT" 1;
+    font-variation-settings: "wght" 350, "XHGT" 1;
   font-family: 'CaracteraVF', serif;
   font-size: 14vw;
   text-align: center;
@@ -52,7 +52,7 @@ h1 {
 
 p {
    font-size: 1.6vw;
-   font-variation-settings: "wght" 400, "XHGT" 1;
+   font-variation-settings: "wght" 350, "XHGT" 1;
    font-family: serif;
 }
 
@@ -90,7 +90,7 @@ p {
 }
 
 .character-set{
-   font-variation-settings: "wght" 400, "XHGT" 1;
+   font-variation-settings: "wght" 350, "XHGT" 1;
    width: 70vw;
    text-align: justify;
    font-family: 'CaracteraVF', serif;
