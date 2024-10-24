@@ -63,8 +63,8 @@ p {
   top: 0;
   left: 0;
   display: flex;
-  justify-content: space-between;
-}
+  justify-content: space-between;   
+} 
 
 .tag {
 	font-family: 'Helvetica', sans-serif;
@@ -248,7 +248,7 @@ b{
 .sample-text-p{
   font-variation-settings: "wght" 350, "XHGT" 1;
   font-family: 'CaracteraVF', serif;
-  font-size: 1.6vw;
+  font-size: 1.7vw;
   text-align: justify;
   color: #f2eee2; 
 }
@@ -292,7 +292,7 @@ b{
 .invio-font{    
    font-variation-settings: "wght" 450, "XHGTXHGT" 1;
    text-align: justify;
-   font-family: 'Egyptian Didone', serif;
+   font-family: serif;
    font-size: 2vw;
    color: #f2eee2;
    padding: 5vw 15vw;
@@ -325,14 +325,14 @@ h5 {
 
 .footer-container{
    text-align: center;
-   margin-top:12vw;  
+   margin-top: 2vw;  
    background-color: #f2eee2;
    padding-top: 50px;    
    
 }
 
 .footer-container img{
-   width:100px;
+   width:300px;
 }
 
 .footer{
