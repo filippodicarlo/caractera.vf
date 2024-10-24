@@ -232,12 +232,20 @@ b{
 
 .sample-container {
   padding: 5vw 15vw;
-  margin-top: 6vw;
+  margin-top: 1vw;
   text-align: justify;
   color: #f2eee2;
 }
 
-.sample-text{
+.sample-text-title{
+  font-variation-settings: "wght" 350, "XHGT" 1;
+  font-family: 'CaracteraVF', serif;
+  font-size: 4.4vw;
+  text-align: justify;
+  color: #f2eee2; 
+}
+
+.sample-text-p{
   font-variation-settings: "wght" 350, "XHGT" 1;
   font-family: 'CaracteraVF', serif;
   font-size: 1.6vw;
