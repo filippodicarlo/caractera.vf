@@ -304,7 +304,14 @@ h5 {
     font-weight: 100;
 }
 
-.footer-divider {
+
+.set-divider {
+   text-align: justify;
+   color: #f2eee2;
+   padding: 2vw 15vw;
+}
+
+.divider {
     height: 2px;
     background-color: #f2eee2;
 }
