@@ -361,4 +361,14 @@ a{
  color: #b32821;
 }
 
+.linktree {    
+ text-decoration: none;
+ color: #29261c;
+} 
+
+.linktree:hover {   
+ font-weight:900;
+ text-decoration: none;
+ color: #29261c;
+} 
 
