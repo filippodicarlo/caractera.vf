@@ -154,10 +154,10 @@ b{
     border-radius: 0px;
     border: 2px solid;
     border-color: #29261c;
-    box-shadow: 10px 10px 0px #29261c;
     font-size: 16px;
     padding: 15px 35px;
     transition: background-color 0.1s ease;
+    transition: box-shadow 0.08s ease;
 }
 
 
@@ -166,6 +166,7 @@ b{
     color: #f2eee2;
     border: 2px solid;
     border-color: #29261c;
+    box-shadow: 10px 10px 0px #29261c;
 }
 
 
