@@ -364,10 +364,11 @@ a{
 .linktree {    
  text-decoration: none;
  color: #29261c;
+ transition: font-weight 0.2s ease;
 } 
 
-.linktree: hover {   
- font-weight:900;
+.linktree:hover {   
+ font-weight: 900;
  text-decoration: none;
  color: #29261c;
 } 
