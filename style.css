@@ -366,7 +366,7 @@ a{
  color: #29261c;
 } 
 
-.linktree:hover {   
+.linktree: hover {   
  font-weight:900;
  text-decoration: none;
  color: #29261c;
