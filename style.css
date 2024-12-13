@@ -361,13 +361,13 @@ a{
  color: #b32821;
 }
 
-.linktree {    
+.portfolio {    
  text-decoration: none;
  color: #29261c;
  transition: font-weight 0.2s ease;
 } 
 
-.linktree:hover {   
+.portfolio:hover {   
  font-weight: 900;
  text-decoration: none;
  color: #29261c;
